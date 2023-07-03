@@ -5,6 +5,7 @@
  * @a: 2d array of int types
  * @size: size of array
  */
+
 void print_diagsums(int *a, int size)
 {
 	int i, s1 = 0, s2 = 0;
@@ -15,7 +16,7 @@ void print_diagsums(int *a, int size)
 		s2 += a[size - i - 1];
 		a += size;
 	}
-	printf("%d", s1);
+	printf("%d, ", s1);
 	printf("%d\n", s2);
 
 }
