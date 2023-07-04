@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print_to_98 - function that print from n to 98.
+ * print_to_98 - function that print from n to 98
+ * separated by comma, followed by space and number
+ * should be printed in order.
  * @n: input
 */
 void print_to_98(int n)
@@ -14,5 +16,5 @@ void print_to_98(int n)
 	else
 		for (count = n; count < 98; count++)
 			printf("%d, ", count);
-	printf("98/n");
+	printf("98\n");
 }
